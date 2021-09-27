@@ -42,7 +42,7 @@ class Navbar extends Component {
                   <img className="img-custom rounded-circle" src={require('../../assets/images/faces/face15.jpg')} alt="profile" />
                   <span className="count bg-success"></span>
                   </div>
-                  <p className="mb-0 d-none d-sm-block navbar-profile-name"><Trans>Henry Klein</Trans></p>
+                  <p className="mb-0 d-none d-sm-block navbar-profile-name"><Trans>8258e1966...</Trans></p>
                   <i className="mdi mdi-menu-down d-none d-sm-block"></i>
                 </div>
               </Dropdown.Toggle>

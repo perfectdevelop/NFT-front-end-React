@@ -25,7 +25,7 @@
     }
     .sidebar-brand {
       text-align: center;
-      color: lighten(color(gray-dark), 20%);
+      color: $sidebar-bg;
       font-size: 1.5rem;
       line-height: 160px;
       margin-right: 0;

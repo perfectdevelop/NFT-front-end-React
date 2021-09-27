@@ -51,7 +51,7 @@ body {
   transition: width $action-transition-duration $action-transition-timing-function, margin $action-transition-duration $action-transition-timing-function;
   width: 100%;
   min-height: calc(100vh - #{$navbar-height});
-  padding-top: $navbar-height;
+  padding-top: 100px;
   @include display-flex();
   @include flex-direction(column);
   @media (max-width: 991px) {

@@ -57,13 +57,14 @@
     -webkit-transition: width $action-transition-duration $action-transition-timing-function;
     -moz-transition: width $action-transition-duration $action-transition-timing-function;
     -ms-transition: width $action-transition-duration $action-transition-timing-function;
-    box-shadow: $navbar-box-shadow;
-    -webkit-box-shadow: $navbar-box-shadow;
-    -moz-box-shadow: $navbar-box-shadow;  
+    // box-shadow: $navbar-box-shadow;
+    // -webkit-box-shadow: $navbar-box-shadow;
+    // -moz-box-shadow: $navbar-box-shadow;  
     color: $navbar-menu-color;
     padding-left: 30px;
     padding-right: 30px;
     width: 100%;
+    background-color: #1A1A27;
     height: calc(#{$navbar-height} - 60px);
     @media (max-width: 991px) {
       width: auto;
