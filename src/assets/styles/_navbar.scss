@@ -61,10 +61,10 @@
     -webkit-box-shadow: $navbar-box-shadow;
     -moz-box-shadow: $navbar-box-shadow;  
     color: $navbar-menu-color;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 100%;
-    height: calc(#{$navbar-height} - 90px);
+    height: calc(#{$navbar-height} - 60px);
     @media (max-width: 991px) {
       width: auto;
       padding-left: 15px;
@@ -144,15 +144,15 @@
       }
       .count {
         position: absolute;
-        left: 66%;
-        width: 7px;
-        height: 7px;
+        left: 77%;
+        width: 16px;
+        height: 16px;
         color: $white;
         border-radius: 100%;
         text-align: center;
         font-size: .625rem;
         line-height: 1.5;
-        top: 7px;
+        top: 2px;
       }
     }
     .navbar-nav {

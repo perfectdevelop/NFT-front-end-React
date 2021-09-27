@@ -45,13 +45,113 @@
 }
 .navbar {
   .form-control {
-    width: 75%;
+    width: 100%;
     border-radius: 6px;
     &:focus {
       border: none;
     }
   }
 }
+
+//============= START HEAD BAR FLOW TEXT ===============
+.scrolltext {
+  height: 32px;	
+  overflow: hidden;
+  position: relative;
+  background-color: #15151f;
+  border-radius: 8px;
+ }
+ .scrolltext div {
+  font-size: 16px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: start;
+  padding: 3px;
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+  transform:translateX(100%);
+  /* Apply animation to this element */	
+  -moz-animation: example1 35s linear infinite;
+  -webkit-animation: example1 35s linear infinite;
+  animation: example1 55s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @-moz-keyframes example1 {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+ }
+ @-webkit-keyframes example1 {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+ }
+ @keyframes example1 {
+  0%   { 
+  -moz-transform: translateX(100%); /* Firefox bug fix */
+  -webkit-transform: translateX(100%); /* Firefox bug fix */
+  transform: translateX(100%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Firefox bug fix */
+  -webkit-transform: translateX(-100%); /* Firefox bug fix */
+  transform: translateX(-100%); 
+  }
+ }
+ .leftlabel {
+  width: 92px;
+  height: 32px;
+  position: absolute;
+  background-color: #101010;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.labelletters{
+  position: absolute;
+  width: 92px;
+  z-index: 1000;
+  background-color: black;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: 12px;
+  height: 32px;
+  margin: 0;
+  margin-bottom: 0 !important;
+  padding-left: 8px;
+}
+.top-pair{
+  padding: 5px;
+}
+.question-mark{
+  font-size: 16px;
+  padding-left: 5px;
+}
+.minus{
+  color: #D91A00;
+  margin-right: 14px;
+}
+.plus{
+  color: #31B902;
+  margin-right: 14px;
+}
+.pairs{
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0;
+  margin-right: 14px;
+}
+.parent-item{
+  display: flex;
+  align-items: center;
+}
+.item-number{
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-right: 8px;
+}
+
+//============= END HEAD BAR FLOW TEXT ================
 
 select {
   &.form-control {

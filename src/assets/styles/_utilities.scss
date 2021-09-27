@@ -39,6 +39,10 @@
   width: 26px;
   height: 26px;
 }
+.img-custom {
+  width: 41.67px;
+  height: 41.67px;
+}
 .stretch-card {
   @include display-flex;
   @include align-items(stretch);
